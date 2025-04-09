@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: corne}
 layers:
   Base:
-  - ↹
+  - {t: '`', h: ESCAPE}
   - Q
   - W
   - E
@@ -12,18 +12,18 @@ layers:
   - I
   - O
   - P
-  - BACKSPACE
+  - {t: BACKSPACE, s: DELETE}
   - $$mdi:apple-keyboard-shift$$
-  - A
-  - S
-  - D
-  - F
+  - {t: A, h: LEFT GUI}
+  - {t: S, h: LEFT ALT}
+  - {t: D, h: LEFT CONTROL}
+  - {t: F, h: LEFT SHIFT}
   - G
   - H
-  - J
-  - K
-  - L
-  - ;
+  - {t: RIGHT SHIFT, h: J}
+  - {t: K, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: L, h: RIGHT ALT}
+  - {t: ;, h: RIGHT GUI}
   - ''''
   - $$mdi:apple-keyboard-control$$
   - Z
@@ -36,7 +36,7 @@ layers:
   - ','
   - .
   - /
-  - $$mdi:apple-keyboard-shift$$
+  - {t: Home, s: End}
   - $$mdi:apple-keyboard-command$$
   - NavNum
   - ␣
@@ -55,7 +55,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - {t: ▽, type: trans}
+  - KP NUMLOCK
   - Caps Word
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -66,8 +66,8 @@ layers:
   - '4'
   - '5'
   - '6'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - PLAY PAUSE
+  - VOLUME UP
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ←
@@ -78,8 +78,8 @@ layers:
   - '1'
   - '2'
   - '3'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - MUTE
+  - VOLUME DOWN
   - $$mdi:apple-keyboard-command$$
   - {type: held}
   - ␣
@@ -230,7 +230,7 @@ combos:
   k: '#'
 - p: [2, 14]
   k: '@'
-- p: [26, 14]
+- p: [27, 15]
   k: \
 - p: [28, 27]
   k: COPY
