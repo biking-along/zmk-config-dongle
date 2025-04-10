@@ -130,7 +130,7 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   System:
-  - {t: ▽, type: trans}
+  - '&studio_unlock'
   - F1
   - F2
   - F3
@@ -142,19 +142,19 @@ layers:
   - F9
   - F10
   - KP NUMLOCK
-  - {t: ▽, type: trans}
+  - Boot
   - F11
   - F12
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&studio_unlock'
+  - '&soft_off'
+  - '&soft_off'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Boot
+  - Reset
   - BT 1
   - BT 2
   - BT 3
@@ -164,8 +164,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Boot
   - {t: ▽, type: trans}
+  - Reset
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
